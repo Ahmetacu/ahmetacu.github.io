@@ -145,9 +145,3 @@ form.addEventListener('submit', function(e) {
 });
  
 
-// Kopyalama Engelleme Uyarısı
-document.addEventListener("copy", function(e) {
-    e.engelle(); // Kopyalamayı engelle
-    var selectedText = window.getSelection().toString(); // Seçilen metni al
-    alert("Bu içeriği kopyalayamazsınız: " + selectedText); // Uyarı göster
-});
