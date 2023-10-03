@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 
+
 h1, h2, h3, h4, h5, h6 {
     color: #333333;
   }
@@ -189,6 +190,7 @@ section{
 .hizmetlerimiz .box-container .box p{
     font-size: 1.5rem;
     color: #fff;
+    text-align: justify;
 }
 
 /* hizmetler tanıtım end */
@@ -239,6 +241,7 @@ section{
 .blog .box-container .box p{
     font-size: 1.5rem;
     color: #fff;
+    text-align: justify;
 }
 
 .blog .box span {
@@ -507,6 +510,10 @@ border: black;
     font-size: 1.6rem;
     text-align: justify;
     margin-top: 2rem;
+}
+
+.acıklma {
+    text-align: justify;
 }
 /* çalışma alanlarımız ve makaleler css end */
 
