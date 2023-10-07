@@ -411,6 +411,10 @@ border: black;
     border-radius: 50%;
     
 }
+.footer .linkler a {
+    color: #960018;
+   
+}
 
 .share {
     display: flex;
