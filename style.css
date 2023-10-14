@@ -534,7 +534,11 @@ border: black;
 }
 .blog .paragraf p {
    text-align: justify;
-   font-size: 1.3rem;
+   font-size: 1.5rem;
+}
+.blog .paragraf ol li {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .blog .paragraf .yazar {
     display: flex;
