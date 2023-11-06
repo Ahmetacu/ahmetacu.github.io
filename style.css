@@ -97,7 +97,7 @@ section{
 /* home start */
 .home{
     min-height: 100vh;
-    background: url(image/slide4.webp) no-repeat;
+    background: url(image/slide4.webp)  no-repeat;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
