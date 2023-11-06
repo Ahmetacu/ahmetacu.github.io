@@ -144,5 +144,15 @@ form.addEventListener('submit', function(e) {
     checkPhone(phone);
 });
 
+// Wait for the DOM to be fully loaded
+document.addEventListener("DOMContentLoaded", function() {
+    // Select all img elements on the page
+    var images = document.getElementsByTagName('img');
+
+    // Loop through all img elements and add loading="lazy" attribute
+    for (var i = 0; i < images.length; i++) {
+        images[i].setAttribute('loading', 'lazy');
+    }
+});
 
 
