@@ -306,10 +306,10 @@ section{
     max-width: 100%;
     height: auto;
 }
-.contact-main .col-4 .display-4 {
+.contact-main  .display-4 {
     margin-bottom: 2rem;
 }
-.contact-main .col-4 a {
+.contact-main  a {
     text-decoration:none ;
     color: #960018;
 }
